@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class exp2 {
+    public static void main(String[]args){
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter integer: ");
+    int n = sc.nextInt();
+    if(n%5==0 && n%7==0 && n%11!=0){
+        System.out.print("Given integer is divisble by 5 and 7 but not 11");
+    }
+    else{
+        System.out.print("Try another number");
+    }
+    sc.close();
+}
+}
